@@ -8,3 +8,4 @@ The basic purpose of any simuation would be to have a better understanding of th
 
 # Circuit Basic Element: NMOS 
 Mos stands for metal oxide semi conductor, and there are of two types one would a P-channel Mosfet and the other one would be an N-channel Mosfet. We can look at the working of an NMOS and an inversed version would be a PMOS. Mosfet generally has 4 terminals i.e. gate, source, drain and bulk. Normally bulk is usually ignored but any change in the bulk potential will impact the threshold voltage. So therefore in Nmos the Bulk voltage is connected to ground, and Pmos the bulk terminal is connected to VDD. 
+<img width="429" alt="PMOS and NMOS Device" src="https://user-images.githubusercontent.com/78948002/108134473-e4645100-707b-11eb-9482-ac66136a9c88.PNG">
