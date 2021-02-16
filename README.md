@@ -1,3 +1,4 @@
 # CMOS-Design
 Circuit Design and Spice Simulations:
-# index
+# Difference between Circuit Design and Spice 
+  
