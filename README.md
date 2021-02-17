@@ -17,6 +17,13 @@ As there are three terminals in a mosfet, when no volatge is applied to all the 
 
 When we increase the gate voltage then depletion width increases, we increase it to a point where there is no further postive ions to repell, so thats when we have a complete n type layer under the gate with almost zero p type ions left, this is also refereed as strong inversion. The gate voltage at which this strong inversion occurs is called as threshold voltage. When Vgs= Vth the channel is formed, the resistance is minimum which allows the current to pass from source to drain. 
 
+# Importance of Bulk Voltage
+There are two scenarios that needs to be taken into consideration when we look at bulk voltage,i.e.
+1. Vsb= 0 
+2. Vsb = +ve 
+
+the following oberservations have been made from the two diagrams i.e. the depletion width when Vsb=0 is much smaller than Vsb= +ve. This is due to the additional reverse bias voltage on top of the gate voltage, this reverse bias causes the depletion region to increase in the latter case. The inversion layer is a bit delayed in the case of Vsb= +ve. The most important one would be due to a different bias to source voltage there is an increase in the gate to source voltage or threshold volatge. 
+
 # Things I learnt from the 1st segment 
 1. threshold voltage can be given by 
   ![image](https://user-images.githubusercontent.com/78948002/108152748-58fcb700-709f-11eb-834f-e71cf37d7a5b.png)  
