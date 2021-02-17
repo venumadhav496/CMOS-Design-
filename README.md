@@ -33,6 +33,7 @@ the following oberservations have been made from the two diagrams i.e. the deple
 # Types of operation region in NMOS 
 
 There are three operating regions in a NMOS transistor i.e.
+
 1> Cut off Region  (vgs <vt)
 2> Resistive region (vgs <vds-vt)
 3> Saturation Region (vgs>vds-vt)
