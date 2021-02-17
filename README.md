@@ -10,7 +10,11 @@ The basic purpose of any simuation would be to have a better understanding of th
 Mos stands for metal oxide semi conductor, and there are of two types one would a P-channel Mosfet and the other one would be an N-channel Mosfet. We can look at the working of an NMOS and an inversed version would be a PMOS. Mosfet generally has 4 terminals i.e. gate, source, drain and bulk. Normally bulk is usually ignored but any change in the bulk potential will impact the threshold voltage. So therefore in Nmos the Bulk voltage is connected to ground, and Pmos the bulk terminal is connected to VDD. 
 <img width="429" alt="PMOS and NMOS Device" src="https://user-images.githubusercontent.com/78948002/108134473-e4645100-707b-11eb-9482-ac66136a9c88.PNG">
 
-
+# Working of a NMOS Transistor 
+As there are three terminals in a mosfet, when no volatge is applied to all the terminals i.e. when gate source ad drain are gounded then there is huge resitance between drain and source stopping the current flow. Now when we supply a postive voltage to the gate there will be negative charge being build up below the gate, this region is also reffered as depletion region which is similar to PN junction diode. When a postive voltage is applied at the gate the Sio2 layer acts a dielectric medium and forms a capacitor circuit and now due to this all the postive p type are repelled from the surface leaving behind the n type holes, Due to this depletion region is formed. As we increase the gate voltage there are two widths that needs to be taken into consideration. 
+1. Depletion width 
+2. Channel width 
+When we increase the gate voltage then depletion width increases, we increase it to a point where there is no further postive ions to repell, so thats when we have a complete n type layer under the gate with almost zero p type ions left, this is also refereed as strong inversion. The gate voltage at which this strong inversion occurs is called as threshold voltage.
 
 
 
