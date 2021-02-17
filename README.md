@@ -30,6 +30,15 @@ the following oberservations have been made from the two diagrams i.e. the deple
 3. For strong inversion in a Nmos the Vgs should be positive i.e. when the gate voltage is increased then the depletion region increases and an strong inversion occurs
 4. the delay in the circuit will be different for same skew rate.
 
+# Types of operation region in NMOS 
+
+There are three operating regions in a NMOS transistor i.e.
+1> Cut off Region  (vgs <vt)
+2> Resistive region (vgs <vds-vt)
+3> Saturation Region (vgs>vds-vt)
+
+
+
 
 # References
 1. https://allthingsvlsi.wordpress.com/2013/04/04/nmos-and-pmos-operating-regions/
