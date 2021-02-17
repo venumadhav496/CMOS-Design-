@@ -14,6 +14,7 @@ Mos stands for metal oxide semi conductor, and there are of two types one would 
 As there are three terminals in a mosfet, when no volatge is applied to all the terminals i.e. when gate source ad drain are gounded then there is huge resitance between drain and source stopping the current flow. Now when we supply a postive voltage to the gate there will be negative charge being build up below the gate, this region is also reffered as depletion region which is similar to PN junction diode. When a postive voltage is applied at the gate the Sio2 layer acts a dielectric medium and forms a capacitor circuit and now due to this all the postive p type are repelled from the surface leaving behind the n type holes, Due to this depletion region is formed. As we increase the gate voltage there are two widths that needs to be taken into consideration. 
 1. Depletion width 
 2. Channel width 
+
 When we increase the gate voltage then depletion width increases, we increase it to a point where there is no further postive ions to repell, so thats when we have a complete n type layer under the gate with almost zero p type ions left, this is also refereed as strong inversion. The gate voltage at which this strong inversion occurs is called as threshold voltage.
 
 
