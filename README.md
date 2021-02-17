@@ -17,7 +17,8 @@ As there are three terminals in a mosfet, when no volatge is applied to all the 
 
 When we increase the gate voltage then depletion width increases, we increase it to a point where there is no further postive ions to repell, so thats when we have a complete n type layer under the gate with almost zero p type ions left, this is also refereed as strong inversion. The gate voltage at which this strong inversion occurs is called as threshold voltage. When Vgs= Vth the channel is formed, the resistance is minimum which allows the current to pass from source to drain. 
 
-
+# Things I learnt from the 1st segment 
+1. threshold voltage can be given by 
 
 
 # References
