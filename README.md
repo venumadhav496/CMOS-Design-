@@ -1,4 +1,33 @@
 # CMOS-Design
+In this workshop, I have understood the concepts of CMOS inverter device characterstics and the effects of delay in CMOS inverter. I understood the concepts of velocity saturation and also derived the voltage transfer characteristcs using the Id vs Vds graphs of PMOS and NMOS. We used sky130 technology and simulated the circuit files using ngspice software. We also looked to understand the robustness of a CMOS Inverter by switching threshold, Noise margin and power supply variation.
+
+Switching threshold: In the VTC curve where Vout = Vin, i.e. when the gate voltage would be equal to the drain voltage. In order to obtain the switching threshold both the PMOS and NMOS are in saturation region 
+
+Noise Margin: This defines the robustness of CMOS Inverter which is immune to noise depending on the noise margin, There are nmH and nmL. The input and the output voltages if they are not in the margin then the input or output is charecterized by undefined, it might be a 0 or 1. In order for the inverter to detect a 1, it should be within the nmH, for the inverter to detect a 0, it should be within nmL. We looked at varying the width of PMOS to see how that effects the noise margin.
+
+Power supply variations: there are many flucations in the input power supply, we looked at different instances where the inputs are varied and we observed how the CMOS output behaviour was not much effected by the changes in input.
+
+# Overview of workshop
+Day1 : Basics of NMOS Drain current (Id) vs Drain-to-source Voltage (Vds)
+Day2 : Velocity saturation and basics of CMOS inverter VTC
+Day3 : CMOS Switching threshold and dynamic simulations
+Day4 : CMOS Noise Margin robustness evaluation
+Day5 : CMOS power supply and device variation robustness evaluation
+
+# Important commands used in Linux Terminal
+
+1. Cd: This fucntion is used to change directories, it will list the folders or files in a folder.
+2. ls: This is used to obtain the list of files in that particular directory.
+3. sky130/designs: this was the folder which would navigate to the spice files and library files in a directory.
+4. less: In order to view a file, we used a command called less<filename> in order to view the file.
+5. vim <file name>, this command would be used in order to make any edit to the file 
+6. in order to edit the spice file, we need use "i" in order to chagne the command mode to insert, then you can edit the file.
+7. esc command is used in order to come out of insert mode and we use :q command to exit the present folder. 
+8. :wq command is used in order to save the file we have edited.   
+9. cd ../ this command is used to go back to a different directory 
+10. ngspice <spice file> this command is used in order to simualate a spice file.
+11. plot <out vs in >would give us the graphical representation between input and output.
+
 
 # Difference between Circuit Design and Spice 
   A basic difference between a circuit design and a spice simualtion would be, the circuit design would consist of logic gates and inverter blocks made up of pmos and nmos, and the Psice simulation would be a simulation tool which would involve simualting the circuits and verifying the output waveforms when an input waveform is provided. 
