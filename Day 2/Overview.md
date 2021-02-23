@@ -20,5 +20,18 @@ Here we look at the difference between long channel and short channel, so when w
 12. The output load is considered to be a capactive load and when the logic is 1, i.e. NMOS on and PMOS off the current will be flowing from the charged capactior through the NMOS and ground. If the input is a logic 0 then the PMOS would be On and NMOS off then the current flow will be charging the capacitor. So the current eill from Vdd though PMOS and will pass through the capacitor charging it to the max value.  
 13. We will find the VTC curve using the ID vs Vds curve of NMOS and PMOS, we will convert the PMOS axis to match with the NMOS axis and we look for the cross over points to form a relation between Vout and Vin.
 
+# Learning
+
+1. For short channel, lower values of Vgs will be quadratic and higher values it will be linear.
+2. Pintch off would occur at Vds= Vgs-Vt.
+3. The drain current in PMOS and NMOS are approximately the same but in opposite directions i.e. Idsp= - Idsn.
+4. When both the PMOS and NMOS are off i.e when the input is floating an 0 or 1 then the ouput is in a high imepdance state.
+5. For PMOS to work in saturation region Vds >= Vgs -|vt|
+6. In PMOS Vin--vdd = vout 
+7. In PMOS when the gate potential increases and the drain potential decreases the PMOS device enters saturation region.
+
+# Simulations
+When W= 0.39 and L=0.15 for a TT, we will keep the Vds constant at 1.8v and try to calculate the peak current by varying the Vgs from 1.4v to 1v. We can see the peak current is high when Vgs=1.4v and then it gradually reduces, which can also show that for the short channel, we can see that for the low values it would be quadratic and for higher values it would be linear.
+
 
 
