@@ -49,16 +49,6 @@ the following oberservations have been made from the two diagrams i.e. the deple
 
 In PMOS the bulk is connected to the power supply and in NMOS the bulk terminal is connected to ground. 
 
-# Things I learnt from Day1 
-1. threshold voltage can be given by 
-  ![image](https://user-images.githubusercontent.com/78948002/108152748-58fcb700-709f-11eb-834f-e71cf37d7a5b.png)  
-3. For strong inversion in a Nmos the Vgs should be positive i.e. when the gate voltage is increased then the depletion region increases and an strong inversion occurs
-4. the delay in the circuit will be different for same skew rate.
-5. From the spice simualtions we can obtain the delay of the circuit and PMOS and NMOS device characteristics 
-6. There are two types of mosfet based on channel length i.e. long channel and short channel. Short channel mosfet are generally reffered if the channel length will be below 25u, If the channel length is greater than 25u then it can be reffered to as long channel. 
-7. There are different types of corner i.e. typical corner, slow slow, fast fast, fast slow and slow fast corner. The represenation is based on PMOS and NMOS, it displays the speed of NMOS and PMOS.
-8. The W/L generally used for nmos is 2.5, we also looked at the Id vs Vds characteristics by varying Vgs.
-
 # Defnitions
 
 Switching threshold: In the VTC curve where Vout = Vin, i.e. when the gate voltage would be equal to the drain voltage. In order to obtain the switching threshold both the PMOS and NMOS are in saturation region 
