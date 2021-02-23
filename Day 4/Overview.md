@@ -21,6 +21,7 @@ The slope at which Voh is considered is -1.
 # Simualtion 
 
 1. We will be varying the width of PMOS to see the Noise margin and how the values are effected.
+Wn= 0.36u and Wp is varied from 0.42 to 1.68 and we will simulate the NMH and NML for these values.
 
 # Observation 
 
