@@ -1,1 +1,2 @@
+We Simulated the spice model of the NMOS circuit and we observed the Id vs Vds characteristics when we vary Vgs. We can look at the spice setup in order to obtain the Id vs Vds Characteritsics below 
 
