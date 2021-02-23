@@ -66,6 +66,7 @@ There are three operating regions in a NMOS transistor i.e.
 3> Saturation Region (vds>vgs-vt)
 
 The drain current can be represented by 
+https://inst.eecs.berkeley.edu/~ee105/fa05/handouts/discussions/Discussion5.pdf
 
 
 # References
