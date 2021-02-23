@@ -1,12 +1,6 @@
 # CMOS-Design
 In this workshop, I have understood the concepts of CMOS inverter device characterstics and the effects of delay in CMOS inverter. I understood the concepts of velocity saturation and also derived the voltage transfer characteristcs using the Id vs Vds graphs of PMOS and NMOS. We used sky130 technology and simulated the circuit files using ngspice software. We also looked to understand the robustness of a CMOS Inverter by switching threshold, Noise margin and power supply variation.
 
-Switching threshold: In the VTC curve where Vout = Vin, i.e. when the gate voltage would be equal to the drain voltage. In order to obtain the switching threshold both the PMOS and NMOS are in saturation region 
-
-Noise Margin: This defines the robustness of CMOS Inverter which is immune to noise depending on the noise margin, There are nmH and nmL. The input and the output voltages if they are not in the margin then the input or output is charecterized by undefined, it might be a 0 or 1. In order for the inverter to detect a 1, it should be within the nmH, for the inverter to detect a 0, it should be within nmL. We looked at varying the width of PMOS to see how that effects the noise margin.
-
-Power supply variations: there are many flucations in the input power supply, we looked at different instances where the inputs are varied and we observed how the CMOS output behaviour was not much effected by the changes in input.
-
 # Overview of workshop
 Day1 : Basics of NMOS Drain current (Id) vs Drain-to-source Voltage (Vds)
 Day2 : Velocity saturation and basics of CMOS inverter VTC
@@ -64,6 +58,14 @@ In PMOS the bulk is connected to the power supply and in NMOS the bulk terminal 
 6. There are two types of mosfet based on channel length i.e. long channel and short channel. Short channel mosfet are generally reffered if the channel length will be below 25u, If the channel length is greater than 25u then it can be reffered to as long channel. 
 7. There are different types of corner i.e. typical corner, slow slow, fast fast, fast slow and slow fast corner. The represenation is based on PMOS and NMOS, it displays the speed of NMOS and PMOS.
 8. The W/L generally used for nmos is 2.5, we also looked at the Id vs Vds characteristics by varying Vgs.
+
+# Defnitions
+
+Switching threshold: In the VTC curve where Vout = Vin, i.e. when the gate voltage would be equal to the drain voltage. In order to obtain the switching threshold both the PMOS and NMOS are in saturation region 
+
+Noise Margin: This defines the robustness of CMOS Inverter which is immune to noise depending on the noise margin, There are nmH and nmL. The input and the output voltages if they are not in the margin then the input or output is charecterized by undefined, it might be a 0 or 1. In order for the inverter to detect a 1, it should be within the nmH, for the inverter to detect a 0, it should be within nmL. We looked at varying the width of PMOS to see how that effects the noise margin.
+
+Power supply variations: there are many flucations in the input power supply, we looked at different instances where the inputs are varied and we observed how the CMOS output behaviour was not much effected by the changes in input.
 
 # Types of operation region in NMOS 
 
